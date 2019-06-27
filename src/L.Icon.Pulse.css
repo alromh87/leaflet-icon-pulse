@@ -10,7 +10,11 @@
     width: 300%;
     position: absolute;
     margin: -100% 0 0 -100%;
+}
 
+.leaflet-pulsing-icon-stop:after {
+    animation: none !important;
+    box-shadow: none !important;
 }
 
 @keyframes pulsate {
